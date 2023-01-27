@@ -1,0 +1,46 @@
+@import url(reset.css);
+body {
+  background-color: rgb(184, 181, 181);
+}
+.header__title {
+  color: yellow;
+}
+.header__title span {
+  color: blue;
+}
+.main__info > p {
+  color: blue;
+}
+.main__info + p {
+  color: yellow;
+}
+.main__info ~ P {
+  color: blue;
+}
+#content {
+  color: yellow;
+}
+.main .main__history {
+  color: yellow;
+}
+.main__history P {
+  color: yellow;
+}
+[id="main__progress-title"] {
+  color: yellow;
+}
+h3 {
+  color: yellow;
+}
+.list__1,
+.list__2,
+.list__3,
+.list__4 {
+  color: blue;
+}
+div.main__facts {
+  color: blue;
+}
+.footer__links * {
+  color: yellow;
+}
