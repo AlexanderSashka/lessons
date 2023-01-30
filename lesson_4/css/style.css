@@ -1,0 +1,76 @@
+@import url(reset.css);
+@font-face {
+  font-family: "Sofia Sans";
+  src: url("../fonts/SofiaSans-Regular.woff2") format("woff2"),
+    url("../fonts/SofiaSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sofia Sans";
+  src: url("../fonts/SofiaSans-Italic.woff2") format("woff2"),
+    url("../fonts/SofiaSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.title {
+  font-family: "Sofia Sans", serif;
+  font-weight: 700;
+  color: rgb(0, 0, 255);
+  font-style: italic;
+  letter-spacing: 15px;
+  font-size: 70px;
+  text-align: center;
+  text-shadow: 5px 5px 5px #000;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  width: 1400px;
+}
+.main__info span {
+  font-size: 20px;
+}
+.main__info p {
+  font-style: italic;
+  text-align: justify;
+  text-decoration: overline;
+  text-shadow: 3px 3px 8px #691fd1;
+  line-height: 25px;
+}
+.main__content-list {
+  text-decoration: line-through;
+  font-weight: 700;
+}
+.main__description-text {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: 3px 3px 8px #691fd1;
+}
+.main__model-text {
+  text-transform: lowercase;
+  line-height: 30px;
+  text-indent: 20px;
+  text-shadow: 3px 3px 8px #691fd1;
+}
+.main__notable-text {
+  word-spacing: 15px;
+  text-shadow: 3px 3px 8px #691fd1;
+}
+.main__notable-text .paragraph_1 {
+  white-space: nowrap;
+}
+.main__notable-text .paragraph_2 {
+  text-transform: capitalize;
+}
+.footer__list {
+  font-weight: 700;
+  text-align: right;
+}
