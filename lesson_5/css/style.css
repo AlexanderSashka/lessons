@@ -1,23 +1,25 @@
 @import url(reset.css);
 body {
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
   font-size: 14px;
+  font-weight: 300;
+  line-height: 1.78;
   color: #6c757d;
 }
+/* ---------------------------- */
 .header {
-  font-size: 50px;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px black;
   font-weight: 700;
-  text-align: center;
   color: #000000;
-}
-h1 {
+  text-align: center;
   margin: 0px 0px 30px 0px;
 }
-.container {
-  max-width: 1270px;
+/* ------------------------------ */
+.main__container {
+  max-width: 1260px;
+  padding: 0px 10px;
   margin: 0 auto;
-  margin-bottom: 80px;
 }
 .title {
   font-weight: 700;
@@ -25,57 +27,62 @@ h1 {
   line-height: 1.6;
   color: #212529;
 }
-.main__block-info_1 {
+/* --------------------------------- */
+.main__block_1 {
   max-width: 816px;
-  margin: 0 auto;
+  margin: 0 auto 80px;
 }
-.main__title-1 {
+.main__title_1 {
   max-width: 400px;
   margin: 0px 0px 40px 0px;
 }
-.main__text-1 {
-  line-height: 1.78;
-  margin: 0px 0px 80px 0px;
-}
-.main__text-1 p {
+.main__text_1 p {
   margin: 0px 0px 35px 0px;
 }
-.main__block-image-1 {
+.main__text_1 p:last-child {
+  margin: 0px;
+}
+.main__image_1 {
   max-width: 1240px;
-}
-.main__block-info_2 {
-  max-width: 816px;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
-.main__title-2 {
+.main__image_1 img {
+  max-width: 100%;
+}
+/* -------------------------------- */
+.main__block_2 {
+  max-width: 816px;
+  margin: 0 auto 80px;
+}
+.main__title_2 {
   max-width: 605px;
   margin: 0px 0px 40px 0px;
 }
-.main__text-2 {
-  line-height: 1.78;
-  margin: 0px 0px 80px 0px;
-}
-.main__text-2 p {
+.main__text_2 p {
   margin: 0px 0px 35px 0px;
 }
-.main__block-image-2 {
+.main__text_2 p:last-child {
+  margin: 0px;
+}
+.main__image_2 {
   font-size: 0;
-  max-width: 1270px;
+  max-width: 1240px;
+  margin: 0px 0px 80px 0px;
 }
-.img1 {
+.image-1 {
   max-width: 100%;
-  margin: 0px 15px;
+  margin: 0px 30px 0px 0px;
 }
-.img2 {
+.image-2 {
   max-width: 100%;
-  margin: 0px 15px;
 }
-.main__block-info_3 {
+/* ----------------------------- */
+.main__block_3 {
   max-width: 816px;
   margin: 0 auto;
 }
-.main__text-3 {
-  max-height: 120px;
-  line-height: 1.78;
+.main__text_3 {
+  max-height: 130px;
   overflow: auto;
 }
