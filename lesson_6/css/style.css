@@ -1,0 +1,71 @@
+@import url("reset.css");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #6c757d;
+}
+/* --------------------------------- */
+[class*="__container"] {
+  max-width: 1270px;
+  padding: 80px 15px 0px 15px;
+  margin: 0 auto;
+}
+main {
+  margin-bottom: 50px;
+}
+.main__text {
+  max-width: 816px;
+  margin: 0 auto 80px;
+}
+.main__text:last-child {
+  margin-bottom: 0px;
+}
+.main__text p {
+  line-height: 1.78;
+  margin: 0px 0px 30px 0px;
+}
+.main__text p:last-child {
+  margin: 0px;
+}
+.main__title {
+  max-width: 605px;
+  font-size: 25px;
+  line-height: 1.6;
+  font-weight: 700;
+  color: #212529;
+  margin: 0px 0px 40px 0px;
+}
+.image {
+  max-width: 100%;
+  margin: 0px 0px 80px 0px;
+}
+.main__images {
+  font-size: 0;
+  margin: 0px 0px 80px 0px;
+}
+.image-1 {
+  max-width: 100%;
+  margin: 0px 30px 0px 0px;
+}
+.image-2 {
+  max-width: 100%;
+}
+/* ----------------------------- */
+.footer__button {
+  max-width: 1270px;
+  padding: 0px 15px 40px;
+  margin: 0 auto;
+}
+.button-1 {
+  display: inline-block;
+  width: 170px;
+  height: 70px;
+  font-size: 25px;
+  padding-top: 18px;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px 3px black;
+  text-align: center;
+}
