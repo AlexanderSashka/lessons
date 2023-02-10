@@ -1,0 +1,70 @@
+@import url("reset.css");
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: yellowgreen;
+}
+
+.main__container {
+  max-width: 1300px;
+  padding: 30px 15px;
+  margin: 0 auto;
+}
+.main__block-1 {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  border: 10px solid yellow;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px 5px yellowgreen;
+  text-align: center;
+}
+.main__image {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.image {
+  max-width: 300px;
+  max-height: 300px;
+  border: 10px solid yellowgreen;
+  border-radius: 52% 48% 100% 0% / 100% 100% 0% 0%;
+  margin: 0px 0px 50px 0px;
+}
+.main__block-2 {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  outline: 10px solid orangered;
+  border-radius: 25px;
+  text-align: center;
+  padding: 15px;
+  box-shadow: inset 5px 5px 10px 5px yellow;
+}
+.main__block-2 span {
+  color: blueviolet;
+  opacity: 0.5;
+}
+.main__block-3 {
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 5px dashed green;
+  border-left: 5px dotted green;
+  opacity: 0.3;
+}
+/* -------------------------------- */
+.footer__button {
+  max-width: 1270px;
+  padding: 0px 15px 40px;
+  margin: 0 auto;
+  color: #000000;
+}
+.button-1 {
+  display: inline-block;
+  width: 170px;
+  height: 70px;
+  font-size: 25px;
+  padding-top: 18px;
+  outline: 10px solid black;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px 3px black;
+  text-align: center;
+  opacity: 0.5;
+}
