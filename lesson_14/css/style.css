@@ -1,0 +1,117 @@
+@import url("reset.css");
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+}
+.wrapper {
+  overflow: clip;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper > main {
+  flex-grow: 1;
+}
+.main__container {
+  max-width: 1270px;
+  padding: 100px 15px;
+  margin: 0 auto;
+}
+/* ------------------------ */
+.main__header-articles {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 44px 0px;
+  line-height: 2.08;
+  color: #495057;
+  font-weight: 500;
+}
+.categories__link {
+  display: inline-block;
+  transition: all 0.3s;
+}
+.categories__link:hover {
+  transform: scale(1.2);
+}
+.header-articles__columns {
+}
+.columns__link {
+  display: inline-block;
+  transition: all 0.3s;
+}
+.columns__link:hover {
+  transform: scale(1.2);
+}
+.columns__link:not(:last-child) {
+  margin-right: 20px;
+}
+.columns__link_color {
+  color: rgba(73, 80, 87, 0.5);
+}
+/* ------------------------------- */
+.main__articles {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px;
+  row-gap: 45.01px;
+}
+.articles__wrapper {
+  flex: 0 1 33.3333%;
+}
+.articles__item {
+  padding: 0px 15px;
+  min-height: 100%;
+}
+.item__image {
+  max-width: 393px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px 0px 30px 0px;
+}
+.item__image:hover .item__photo {
+  transform: scale(1.1);
+}
+.item__photo {
+  transition: all 0.3s;
+  max-width: 100%;
+}
+.item__link {
+  position: absolute;
+  top: 33px;
+  right: 7.5%;
+  font-size: 8px;
+  line-height: 2.5;
+  color: #f8f9fa;
+  padding: 3px 12.09px 2px 12.77px;
+  background: rgba(33, 37, 41, 0.3);
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+.item__link:hover {
+  transform: scale(1.2);
+}
+.item__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.item__date {
+}
+.item__link-title {
+}
+.item__text {
+  flex-grow: 1;
+}
+.item__by {
+}
+.item__by::before {
+  content: "";
+  display: inline-block;
+  width: 393px;
+  border: 1px solid #e5e5e5;
+  transform: rotate(0.15deg);
+  margin: 0px 0px 15px 0px;
+}
+.articles__button {
+}
