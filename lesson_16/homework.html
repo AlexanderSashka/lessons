@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/homework.css">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<div class="main__container">
+				<form action="" class="main__form form">
+					<div class="form__wrapper">
+						<div class="form__row">
+							<input class="form__input" autocomplete="off" tabindex="1" name="first-name" placeholder="Имя"
+								type="text">
+						</div>
+						<div class="form__row">
+							<input class="form__input" autocomplete="off" tabindex="2" name="last-name" placeholder="Фамилия"
+								type="text">
+						</div>
+						<div class="form__row">
+							<input class="form__input" autocomplete="off" tabindex="3" name="email" required
+								placeholder="Email" type="email">
+						</div>
+						<div class="form__row">
+							<input class="form__input" autocomplete="off" tabindex="4" name="birthday" type="date">
+						</div>
+						<div class="form__row">
+							<input class="form__input" autocomplete="off" tabindex="5" name="login" placeholder="Логин"
+								type="text">
+						</div>
+						<div class="form__row">
+							<input class="form__input" autocomplete="off" tabindex="6" name="pass" required
+								placeholder="Пароль *" type="password">
+						</div>
+						<div class="form__row">
+							<textarea class="form__textarea" autocomplete="off" placeholder="О себе" tabindex="7"
+								name="about-me"></textarea>
+						</div>
+					</div>
+					<div class="form__radio radio">
+						<div class="radio__row">
+							<h2 class="radio__title">Ваш пол</h2>
+							<input class="radio__input" tabindex="8" name="gender" value="mens" id="radio-01" type="radio">
+							<label class="radio__label" for="radio-01">Мужской</label>
+						</div>
+						<div class="radio__row">
+							<input class="radio__input" name="gender" value="womens" id="radio-02" type="radio">
+							<label class="radio__label" for="radio-02">Женский</label>
+						</div>
+					</div>
+					<div class="form__checkbox checkbox">
+						<div class="checkbox__row">
+							<input class="checkbox__input" tabindex="9" name="conditions" id="check-01" type="checkbox">
+							<label class="checkbox__label" for="check-01">Я принимаю условия пользовательского
+								соглашения</label>
+						</div>
+						<div class="checkbox__row">
+							<input class="checkbox__input" tabindex="10" name="conditions" id="check-02" type="checkbox">
+							<label class="checkbox__label" for="check-02">Я не принимаю условия пользовательского
+								соглашения</label>
+						</div>
+					</div>
+					<div class="form__button">
+						<button class="form__btn" tabindex="11" type="submit">Регистрация</button>
+					</div>
+				</form>
+			</div>
+		</main>
+	</div>
+</body>
+
+</html>
