@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Inter:500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:regular,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:regular&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lesson 16</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <main class="page">
+      <div class="page__checkout checkout">
+        <div class="checkout__container">
+          <h2 class="checkout__title">Billing Details</h2>
+          <form class="checkout__form form-checkout" action="#" enctype="multipart/form-data">
+            <div class="form-checkout__body">
+              <div class="form-checkout__row">
+                <input class="form-checkout__input" autocomplete="off" tabindex="1" required placeholder="First name*"
+                  name="username" type="text">
+              </div>
+              <div class="form-checkout__row">
+                <input class="form-checkout__input" autocomplete="off" tabindex="2" required placeholder="Last name*"
+                  name="last-name" type="text">
+              </div>
+              <div class="form-checkout__row">
+                <input class="form-checkout__input" autocomplete="off" tabindex="3" required placeholder="Address*"
+                  name="address" type="text">
+              </div>
+              <div class="form-checkout__row">
+                <input class="form-checkout__input" autocomplete="off" tabindex="4" placeholder="Address line 2"
+                  name="address-2" type="text">
+              </div>
+              <div class="form-checkout__row form-checkout__row_before">
+                <select class="form-checkout__list" tabindex="5" name="country">
+                  <option selected value="1">Country*</option>
+                  <option value="1">Ukraine</option>
+                  <option value="2">Spain</option>
+                  <option value="3">USA</option>
+                </select>
+              </div>
+              <div class="form-checkout__row">
+                <input class="form-checkout__input" autocomplete="off" tabindex="6" required placeholder="City/Town*"
+                  name="city" type="text">
+              </div>
+              <div class="form-checkout__row">
+                <input class="form-checkout__input" autocomplete="off" tabindex="7" required
+                  placeholder="Postcode / ZIP*" name="postcode" type="text">
+              </div>
+              <div class="form-checkout__row">
+                <input class="form-checkout__input" autocomplete="off" tabindex="8" required placeholder="Phone*"
+                  name="phone" type="tel">
+              </div>
+              <div class="form-checkout__row">
+                <input class="form-checkout__input" autocomplete="off" tabindex="9" required
+                  placeholder="Postcode / ZIP*" name="postcode" type="text">
+              </div>
+              <div class="form-checkout__row">
+                <input class="form-checkout__input" autocomplete="off" tabindex="10" required placeholder="Phone*"
+                  name="phone" type="tel">
+              </div>
+              <div class="form-checkout__line">
+                <textarea class="form-checkout__textarea" autocomplete="off" tabindex="11"
+                  placeholder="Additional information" name="info"></textarea>
+              </div>
+            </div>
+            <div class="form-checkout__bottom bottom-checkout">
+              <div class="bottom-checkout__checkbox checkbox">
+                <div class="checkbox__item">
+                  <input class="checkbox__input" checked tabindex="12" id="check-01" name="create-account"
+                    type="checkbox">
+                  <label class="checkbox__label" for="check-01">Create Account</label>
+                </div>
+                <div class="checkbox__item">
+                  <input class="checkbox__input" tabindex="13" id="check-02" name="address" type="checkbox">
+                  <label class="checkbox__label" for="check-02">Ship to a different address?</label>
+                </div>
+              </div>
+              <h2 class="bottom-checkout__title">Apply Coupon to get discount!</h2>
+              <div class="bottom-checkout__wrapper">
+                <div class="bottom-checkout__row bottom-checkout__row_width">
+                  <input class="bottom-checkout__input" tabindex="14" placeholder="Coupon code" name="coupon"
+                    type="text">
+                </div>
+                <div class="bottom-checkout__row">
+                  <button class="bottom-checkout__button" tabindex="15" type="submit">Apply Code</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="page__address address">
+        <div class="address__container">
+          <h2 class="address__title title">Shipping Address</h2>
+          <form action="#" method="post" enctype="multipart/form-data" class="address__header-form header-form  ">
+            <div class="header-form__wrapper">
+              <div class="header-form__row">
+                <label class="header-form__label" for="email-01">Email Address <span>*</span></label>
+                <input class="header-form__input" tabindex="16" autocomplete="off" id="email-01" required type="email">
+              </div>
+              <div class="header-form__row">
+                <label class="header-form__label" for="pass-01">Password</label>
+                <input class="header-form__input" tabindex="17" autocomplete="off" id="pass-01" required
+                  type="password">
+              </div>
+              <div class="header-form__row header-form__row_gap">
+                <label class="header-form__label header-form__label_width" for="code-01">Zip/Postal Code</label>
+                <input class="header-form__input" tabindex="18" autocomplete="off" id="code-01" required
+                  type="password">
+              </div>
+            </div>
+            <h3 class="header-form__title">You already have an account with us. Sign in or continue as guest.</h3>
+            <div class="header-form__column">
+              <button class="header-form__button button" tabindex="19" type="submit">login</button>
+              <a href="#" class="header-form__link">Forgot Your Password?</a>
+            </div>
+          </form>
+          <form action="#" enctype="multipart/form-data" class="address__body body-form">
+            <div class="body-form__wrapper">
+              <div class="body-form__row">
+                <label for="first-name-01" class="body-form__label">First Name <span>*</span></label>
+                <input type="text" autocomplete="off" tabindex="20" required id="first-name-01" name="first-name"
+                  class="body-form__input">
+              </div>
+              <div class="body-form__row">
+                <label for="last-name-01" class="body-form__label">Last Name <span>*</span></label>
+                <input type="text" autocomplete="off" tabindex="21" required id="last-name-01" name="last-name"
+                  class="body-form__input">
+              </div>
+              <div class="body-form__row">
+                <label for="Company-01" class="body-form__label">Company</label>
+                <input type="text" autocomplete="off" tabindex="22" id="Company-01" name="company"
+                  class="body-form__input">
+              </div>
+              <div class="body-form__row ">
+                <label for="street-address-01" class="body-form__label body-form__label_height">Street Address <span>
+                    *</span></label>
+                <div class="body-form__inputs">
+                  <input type="text" autocomplete="off" tabindex="23" id="street-address-01" name="address-01"
+                    class="body-form__input body-form__input_column">
+                  <input type="text" autocomplete="off" tabindex="24" name="address-02"
+                    class="body-form__input body-form__input_column">
+                  <input type="text" autocomplete="off" tabindex="25" name="address-03"
+                    class="body-form__input body-form__input_column">
+                </div>
+              </div>
+              <div class="body-form__row">
+                <label for="country-01" class="body-form__label">Country <span>*</span></label>
+                <input type="text" autocomplete="off" tabindex="26" id="country-01" name="country"
+                  class="body-form__input">
+              </div>
+              <div class="body-form__row body-form__row_hover">
+                <label for="state-01" class="body-form__label">State/Province <span>*</span></label>
+                <div class="body-form__item">
+                  <select name="state" id="state-01" tabindex="27" class="body-form__list">
+                    <option selected value="1">Please select a region, state or province</option>
+                    <option value="2">state-2</option>
+                    <option value="3">state-3</option>
+                    <option value="4">state-4</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="body-form__radio radio">
+              <h3 class="body-form__title title">Shipping Methods</h3>
+              <div class="radio__wrapper">
+                <div class="radio__items">
+                  <div class="radio__row">
+                    <input checked class="radio__input" tabindex="28" id="radio-shipping-01" name="radio-shipping"
+                      value="five-dollars" type="radio">
+                    <label class="radio__label" for="radio-shipping-01">$5.00</label>
+                  </div>
+                  <div class="radio__item">
+                    <a href="#">Fixed</a>
+                  </div>
+                  <div class="radio__item">
+                    <a href="#">Flat Rate</a>
+                  </div>
+                </div>
+                <div class="radio__items">
+                  <div class="radio__row">
+                    <input class="radio__input" tabindex="29" id="radio-shipping-02" name="radio-shipping"
+                      value="ten-dollars" type="radio">
+                    <label class="radio__label" for="radio-shipping-02">$10.00</label>
+                  </div>
+                  <div class="radio__item">
+                    <a href="#">Table Rate</a>
+                  </div>
+                  <div class="radio__item">
+                    <a href="#">Best Way</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="body-form__button button-form">
+              <button tabindex="30" class="button-form__btn button">next</button>
+              <div class="button-form__link">
+                <a href="homework.html" target="_blank" tabindex="31">Homework</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
